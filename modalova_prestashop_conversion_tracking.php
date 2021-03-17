@@ -28,13 +28,13 @@ if (!defined('_PS_VERSION_')) {
     exit;
 }
 
-class Modalova extends Module
+class modalova_prestashop_conversion_tracking extends Module
 {
     protected $config_form = false;
 
     public function __construct()
     {
-        $this->name = 'modalova';
+        $this->name = 'modalova_prestashop_conversion_tracking';
         $this->tab = 'advertising_marketing';
         $this->version = '1.0.0';
         $this->author = 'Modalova';
@@ -47,10 +47,10 @@ class Modalova extends Module
 
         parent::__construct();
 
-        $this->displayName = 'Modalova';
-        $this->description = 'Easy integration with Modalova';
+        $this->displayName = $this->l('Modalova');
+        $this->description = $this->l('Easy conversion tracking for Modalova');
 
-        $this->confirmUninstall = 'Are you sure you want to uninstall this module?';
+        $this->confirmUninstall = $this->l('Are you sure you want to uninstall this module?');
 
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
     }

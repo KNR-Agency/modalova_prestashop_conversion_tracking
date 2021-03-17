@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
-	<name>modalova</name>
+	<name>modalova_prestashop_conversion_tracking</name>
 	<displayName><![CDATA[Modalova]]></displayName>
 	<version><![CDATA[1.0.0]]></version>
 	<description><![CDATA[Easy integration with Modalova]]></description>
